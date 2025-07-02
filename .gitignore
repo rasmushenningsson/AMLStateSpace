@@ -1,0 +1,10 @@
+*.jl.*.cov
+*.jl.cov
+*.jl.mem
+*.mem
+.DS_Store
+.Rhistory
+LocalPreferences.toml
+out*/
+ProjectionPlots/.cache/
+ProjectionPlots/data/samples
