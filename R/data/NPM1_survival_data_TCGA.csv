@@ -1,0 +1,49 @@
+PATIENT_ID,SAMPLE_ID,SEX,NPM1group,OS_MONTHS,OS_STATUS,Treatment,SCT.group,Age.group,WBC.group,BMblast.group,FLT3.ITD.group,DNMT3A.group,TET2.group,IDH2.group,IDH1.group,AGE,WBC,cohort
+TCGA-AB-2811,TCGA-AB-2811,Male,NPM1 class II,8.2,2,Chemo,no,high,high,high,neg,pos,neg,neg,neg,81,90.6,TCGA
+TCGA-AB-2812,TCGA-AB-2812,Female,NPM1 class II,11.5,2,Chemo,yes,low,low,low,pos,neg,neg,neg,neg,25,34.2,TCGA
+TCGA-AB-2816,TCGA-AB-2816,Female,NPM1 No group,7.5,2,Chemo,no,low,high,high,neg,pos,neg,neg,neg,57,87.5,TCGA
+TCGA-AB-2818,TCGA-AB-2818,Female,NPM1 No group,10.2,2,Chemo,no,high,high,low,neg,pos,neg,neg,neg,62,75.2,TCGA
+TCGA-AB-2824,TCGA-AB-2824,Male,NPM1 No group,0.3,2,Chemo,no,low,low,low,neg,pos,neg,neg,neg,44,8.8,TCGA
+TCGA-AB-2825,TCGA-AB-2825,Female,NPM1 No group,7.5,2,Chemo,yes,low,high,high,pos,pos,neg,neg,neg,31,137.2,TCGA
+TCGA-AB-2826,TCGA-AB-2826,Female,NPM1 class I,24.1,2,Chemo,no,high,high,low,neg,neg,neg,pos,neg,64,131.5,TCGA
+TCGA-AB-2835,TCGA-AB-2835,Male,NPM1 No group,77.3,1,Chemo,no,low,high,high,neg,neg,neg,neg,neg,48,116.2,TCGA
+TCGA-AB-2837,TCGA-AB-2837,Female,NPM1 No group,0.7,2,Chemo,no,high,high,high,neg,neg,neg,neg,neg,66,111.8,TCGA
+TCGA-AB-2839,TCGA-AB-2839,Female,NPM1 class II,16.3,2,Chemo,yes,low,high,low,neg,pos,neg,neg,neg,51,42.1,TCGA
+TCGA-AB-2848,TCGA-AB-2848,Male,NPM1 class I,14.5,2,Chemo,yes,high,high,low,neg,neg,neg,neg,neg,62,118.8,TCGA
+TCGA-AB-2853,TCGA-AB-2853,Male,NPM1 class II,3.1,2,Chemo,no,low,high,high,pos,pos,neg,neg,neg,51,103.6,TCGA
+TCGA-AB-2859,TCGA-AB-2859,Male,NPM1 class II,10.2,2,Chemo,no,low,low,low,neg,pos,neg,neg,neg,40,8.3,TCGA
+TCGA-AB-2869,TCGA-AB-2869,Female,NPM1 class II,27.1,1,Chemo,no,high,low,low,pos,pos,neg,neg,neg,64,2.6,TCGA
+TCGA-AB-2871,TCGA-AB-2871,Male,NPM1 class II,22.6,1,Chemo,yes,low,low,low,pos,neg,neg,neg,neg,51,1.5,TCGA
+TCGA-AB-2877,TCGA-AB-2877,Female,NPM1 class I,41.4,1,Chemo,yes,high,low,high,pos,neg,neg,pos,neg,60,11.5,TCGA
+TCGA-AB-2879,TCGA-AB-2879,Female,NPM1 class I,31.9,1,Chemo,no,high,high,high,pos,neg,pos,neg,neg,68,59.9,TCGA
+TCGA-AB-2884,TCGA-AB-2884,Female,NPM1 No group,24.8,2,Chemo,yes,low,low,high,neg,pos,neg,neg,pos,44,13.5,TCGA
+TCGA-AB-2896,TCGA-AB-2896,Female,NPM1 class II,7.5,2,Chemo,yes,low,high,high,neg,pos,neg,neg,neg,21,93,TCGA
+TCGA-AB-2900,TCGA-AB-2900,Male,NPM1 No group,6.3,2,CLAM,no,high,high,high,neg,neg,neg,neg,neg,70,48,TCGA
+TCGA-AB-2903,TCGA-AB-2903,Female,NPM1 class I,0.4,2,Chemo,no,high,high,high,neg,neg,neg,neg,neg,76,297.4,TCGA
+TCGA-AB-2913,TCGA-AB-2913,Male,NPM1 class II,52.6,1,Chemo,yes,high,high,high,pos,neg,neg,neg,neg,61,61.6,TCGA
+TCGA-AB-2919,TCGA-AB-2919,Female,NPM1 class I,26.8,1,Chemo,no,low,low,low,neg,pos,neg,neg,pos,54,13.1,TCGA
+TCGA-AB-2924,TCGA-AB-2924,Male,NPM1 No group,26,1,Chemo,yes,low,low,low,neg,neg,neg,neg,neg,59,29.7,TCGA
+TCGA-AB-2925,TCGA-AB-2925,Male,NPM1 No group,7.9,2,Chemo,no,low,high,low,pos,pos,neg,neg,neg,57,99.2,TCGA
+TCGA-AB-2931,TCGA-AB-2931,Male,NPM1 class II,0.1,2,no treatment,no,high,high,low,pos,pos,neg,neg,neg,75,98.2,TCGA
+TCGA-AB-2932,TCGA-AB-2932,Male,NPM1 No group,42.1,1,Chemo,no,high,high,high,neg,neg,neg,neg,neg,62,59.3,TCGA
+TCGA-AB-2963,TCGA-AB-2963,Male,NPM1 class II,53.9,2,Chemo,yes,low,low,high,neg,neg,neg,neg,neg,56,30.5,TCGA
+TCGA-AB-2965,TCGA-AB-2965,Male,NPM1 No group,11.3,2,Chemo,yes,high,high,high,pos,pos,pos,neg,neg,60,67.5,TCGA
+TCGA-AB-2967,TCGA-AB-2967,Male,NPM1 No group,56.5,1,Chemo,yes,low,low,low,neg,pos,neg,neg,neg,58,19.9,TCGA
+TCGA-AB-2969,TCGA-AB-2969,Male,NPM1 No group,62.3,1,Chemo,yes,low,high,high,neg,pos,neg,neg,pos,55,72.6,TCGA
+TCGA-AB-2972,TCGA-AB-2972,Female,NPM1 class II,1.5,2,Decitabine,no,high,low,low,neg,neg,neg,neg,neg,82,1.4,TCGA
+TCGA-AB-2973,TCGA-AB-2973,Female,NPM1 No group,20.5,2,Chemo,no,high,low,low,neg,neg,neg,pos,neg,67,15.2,TCGA
+TCGA-AB-2976,TCGA-AB-2976,Male,NPM1 class II,30,2,Chemo,yes,low,high,high,pos,neg,neg,neg,neg,53,88.1,TCGA
+TCGA-AB-2981,TCGA-AB-2981,Female,NPM1 No group,44.4,1,Chemo,yes,low,high,high,pos,pos,neg,neg,neg,35,72.1,TCGA
+TCGA-AB-2984,TCGA-AB-2984,Male,NPM1 class I,71.3,1,Chemo,no,low,low,high,neg,neg,neg,neg,pos,38,39.8,TCGA
+TCGA-AB-2986,TCGA-AB-2986,Female,NPM1 class II,6.6,2,Chemo,yes,low,low,low,pos,neg,neg,neg,neg,31,12.6,TCGA
+TCGA-AB-2987,TCGA-AB-2987,Female,NPM1 No group,6.3,2,Revlimid,no,high,low,low,neg,pos,neg,neg,neg,75,7.3,TCGA
+TCGA-AB-2988,TCGA-AB-2988,Female,NPM1 class II,0.8,2,"hydrea, didn't get add'l chemo",no,high,high,low,pos,pos,neg,neg,neg,67,45.6,TCGA
+TCGA-AB-2990,TCGA-AB-2990,Male,NPM1 class I,42.1,1,Chemo,yes,low,high,high,neg,neg,neg,neg,pos,51,63.7,TCGA
+TCGA-AB-2992,TCGA-AB-2992,Female,NPM1 No group,56.3,2,Chemo,yes,low,low,high,neg,neg,neg,neg,pos,32,5.1,TCGA
+TCGA-AB-2993,TCGA-AB-2993,Female,NPM1 class II,24.6,2,Chemo,yes,low,high,high,pos,pos,neg,neg,neg,57,102.5,TCGA
+TCGA-AB-3011,TCGA-AB-3011,Female,NPM1 class I,81.9,1,Chemo,yes,low,low,high,neg,neg,neg,neg,pos,21,8.2,TCGA
+TCGA-AB-2810,TCGA-AB-2810,Female,NPM1 class I,1.3,2,no treatment,no,high,high,low,neg,neg,neg,pos,neg,76,61.6,TCGA
+TCGA-AB-2895,TCGA-AB-2895,Female,NPM1 class II,5.7,2,Chemo,no,low,high,high,pos,pos,neg,neg,neg,41,134.4,TCGA
+TCGA-AB-2836,TCGA-AB-2836,Male,NPM1 No group,17,2,Chemo,no,low,high,high,pos,neg,neg,neg,neg,35,52.9,TCGA
+TCGA-AB-2861,TCGA-AB-2861,Male,NPM1 No group,0.6,2,low dose Ara C,no,high,low,low,neg,pos,neg,neg,neg,76,4,TCGA
+TCGA-AB-2915,TCGA-AB-2915,Female,NPM1 class II,0.5,2,Decitabine,no,high,low,low,pos,neg,neg,neg,neg,73,15.1,TCGA

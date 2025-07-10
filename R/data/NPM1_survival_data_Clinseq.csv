@@ -1,0 +1,128 @@
+PATIENT_ID,SAMPLE_ID,SEX,NPM1group,OS_MONTHS,OS_STATUS,Treatment,SCT.group,Age.group,WBC.group,BMblast.group,FLT3.ITD.group,DNMT3A.group,TET2.group,IDH2.group,IDH1.group,AGE,WBC,cohort
+ALG16_009,ALG16_009,Male,NPM1 class I,3.0882956878850103,2,Hypomethylating treatment (azacitidine or similar),no,high,low,low,neg,neg,neg,pos,neg,86,3.2,Clinseq
+ALG16_011,ALG16_011,Male,NPM1 class II,8.509240246406572,2,Chemo,yes,low,low,high,pos,pos,neg,neg,neg,38,148.5,Clinseq
+ALG16_021,ALG16_021,Male,NPM1 No group,16.262833675564682,2,Chemo,no,high,high,low,pos,pos,pos,neg,neg,71,92.8,Clinseq
+ALG16_023,ALG16_023,Male,NPM1 class I,4.59958932238193,2,Hypomethylating treatment (azacitidine or similar),no,high,low,low,neg,neg,pos,neg,neg,80,34.6,Clinseq
+ALG16_028,ALG16_028,Female,NPM1 No group,42.809034907597535,1,Chemo,no,low,low,low,neg,neg,neg,neg,neg,52,1.8,Clinseq
+ALG16_030,ALG16_030,Female,NPM1 No group,21.25667351129363,2,Hypomethylating treatment (azacitidine or similar),no,high,low,low,neg,pos,neg,pos,pos,77,1.9,Clinseq
+ALG17_014,ALG17_014,Male,NPM1 No group,34.13552361396304,1,Chemo,yes,high,low,low,neg,pos,pos,neg,neg,68,20.6,Clinseq
+ALG17_016,ALG17_016,Female,NPM1 No group,20.566735112936342,2,Hypomethylating treatment (azacitidine or similar),no,high,high,low,pos,pos,neg,neg,neg,88,8.8000000000000007,Clinseq
+ALG17_024,ALG17_024,Male,NPM1 class I,31.080082135523615,1,Chemo,yes,high,low,low,neg,pos,neg,neg,pos,62,12.8,Clinseq
+ALG17_025,ALG17_025,Female,NPM1 No group,7.523613963039014,2,Chemo,no,high,low,low,pos,neg,neg,neg,neg,76,102.9,Clinseq
+ALG17_032,ALG17_032,Male,NPM1 class I,11.170431211498974,2,Hypomethylating treatment (azacitidine or similar),no,high,low,low,neg,neg,pos,neg,neg,63,36.799999999999997,Clinseq
+ALG18_014,ALG18_014,Male,NPM1 No group,21.48665297741273,1,Chemo,no,high,low,low,neg,pos,pos,neg,neg,71,12.5,Clinseq
+ALG18_017,ALG18_017,Male,NPM1 class I,20.205338809034902,1,Chemo,no,high,low,low,neg,neg,pos,neg,neg,79,37,Clinseq
+ALG18_022,ALG18_022,Female,NPM1 class I,19.351129363449697,1,Chemo,no,high,low,high,neg,neg,pos,neg,neg,63,38.700000000000003,Clinseq
+ALG18_030,ALG18_030,Male,NPM1 No group,17.149897330595483,1,Chemo,yes,high,low,low,pos,neg,neg,neg,neg,61,15.7,Clinseq
+ALG19_002,ALG19_002,Male,NPM1 class II,15.31006160164271,1,Chemo,no,low,high,low,pos,neg,neg,neg,neg,55,53.8,Clinseq
+ALG19_007,ALG19_007,Male,NPM1 No group,14.981519507186858,1,Chemo,no,high,low,low,neg,neg,pos,neg,neg,71,116.2,Clinseq
+ALG19_012,ALG19_012,Male,NPM1 No group,11.071868583162216,2,Chemo,yes,high,low,low,pos,pos,neg,pos,neg,62,135,Clinseq
+ALG19_014,ALG19_014,Female,NPM1 class II,14.258726899383984,1,Chemo,no,high,low,low,pos,pos,pos,neg,neg,74,104,Clinseq
+ALG19_028,ALG19_028,Female,NPM1 No group,0.16427104722792607,2,"No, none or palliative treatment",no,high,high,high,neg,pos,neg,neg,pos,88,42.5,Clinseq
+ALG19_033,ALG19_033,Male,NPM1 class II,12.09034907597536,1,Chemo,yes,low,low,low,pos,pos,neg,neg,neg,57,37.4,Clinseq
+ALG19_038,ALG19_038,Female,NPM1 class II,10.97330595482546,1,Chemo,no,low,low,low,pos,neg,neg,neg,neg,40,31.6,Clinseq
+ALG19_045,ALG19_045,Female,NPM1 class II,9.232032854209445,1,Chemo,yes,low,high,low,pos,neg,neg,neg,neg,23,67.8,Clinseq
+ALG19_047,ALG19_047,Male,NPM1 No group,8.772073921971252,1,Chemo,yes,low,high,low,neg,neg,neg,neg,neg,58,8.6,Clinseq
+ALG19_048,ALG19_048,Female,NPM1 No group,8.574948665297741,1,Chemo,no,high,high,low,neg,neg,neg,neg,neg,77,98.4,Clinseq
+ALG20_004,ALG20_004,Male,NPM1 class I,4.271047227926078,1,Chemo,no,high,high,low,neg,neg,pos,neg,neg,75,85.3,Clinseq
+ALG20_006,ALG20_006,Male,NPM1 class II,0.26283367556468173,2,Chemo,no,high,low,low,pos,neg,neg,neg,neg,84,31.2,Clinseq
+ALG20_013,ALG20_013,Female,NPM1 No group,3.811088295687885,1,Chemo,no,high,low,low,pos,pos,pos,neg,neg,66,35.6,Clinseq
+ALG20_015,ALG20_015,Male,NPM1 class I,8.640657084188911,1,Chemo,yes,low,low,high,pos,neg,pos,neg,neg,52,374.3,Clinseq
+ALG20_016,ALG20_016,Female,NPM1 class II,3.02258726899384,1,Chemo,no,high,low,low,neg,pos,neg,neg,neg,66,104,Clinseq
+ALG2015_1,ALG2015_1,Female,NPM1 class I,0.75564681724846,2,"No, none or palliative treatment",no,high,low,low,NA,NA,NA,NA,NA,84,10.8,Clinseq
+ALG2015_29,ALG2015_29,Male,NPM1 class I,4.336755646817249,2,Hypomethylating treatment (azacitidine or similar),no,high,low,low,NA,NA,NA,NA,NA,84,1.6,Clinseq
+ALBB13002,ALBB13002,Male,NPM1 class I,46.6,1,Chemo,yes,low,low,high,pos,pos,neg,pos,neg,53,35,Clinseq
+ALBB13003,ALBB13003,Male,NPM1 class I,35.45161290322581,2,Chemo,no,high,low,high,pos,neg,pos,neg,neg,73,132.2,Clinseq
+ALBB13011,ALBB13011,Male,NPM1 No group,6.096774193548387,2,Chemo,no,low,high,low,neg,neg,neg,neg,neg,51,92.6,Clinseq
+ALBB13032,ALBB13032,Male,NPM1 class I,16.096774193548388,2,Chemo,no,high,low,high,pos,neg,neg,pos,neg,78,111,Clinseq
+ALBB13038,ALBB13038,Female,NPM1 class I,41.06666666666667,1,Chemo,no,high,low,low,pos,neg,neg,pos,neg,79,2.3,Clinseq
+ALBB13044,ALBB13044,Female,NPM1 No group,21.419354838709676,1,Chemo,yes,high,low,low,pos,pos,neg,neg,neg,66,1.2,Clinseq
+ALBB13051,ALBB13051,Male,NPM1 class I,29.70967741935484,2,Chemo,no,high,high,high,neg,pos,neg,neg,pos,81,48.2,Clinseq
+ALBB13053,ALBB13053,Male,NPM1 No group,19.225806451612904,2,Chemo,yes,high,low,low,pos,pos,neg,neg,neg,61,36.9,Clinseq
+ALBB13062,ALBB13062,Female,NPM1 class II,0.5666666666666667,2,Chemo,no,high,low,high,pos,neg,neg,pos,neg,63,159,Clinseq
+ALBB13063,ALBB13063,Male,NPM1 No group,0.6666666666666666,2,"No, none or palliative treatment",no,high,high,high,neg,pos,neg,neg,pos,89,58.8,Clinseq
+ALBB13075,ALBB13075,Male,NPM1 class I,0.41935483870967744,2,Chemo,no,high,low,high,neg,pos,pos,neg,neg,77,110,Clinseq
+ALBB13080,ALBB13080,Female,NPM1 class I,18.785714285714285,1,Chemo,yes,high,low,low,pos,pos,pos,neg,neg,67,27,Clinseq
+ALBB13099,ALBB13099,Female,NPM1 No group,35.96774193548387,1,Chemo,no,low,high,low,neg,neg,pos,neg,neg,28,48,Clinseq
+ALBB13104,ALBB13104,Female,NPM1 class I,8.419354838709678,2,Chemo,no,low,low,high,pos,neg,neg,neg,pos,58,24.6,Clinseq
+ALBB13118,ALBB13118,Male,NPM1 class II,9.67741935483871,2,Chemo,no,low,low,low,pos,pos,neg,neg,neg,50,132.8,Clinseq
+ALBB13132,ALBB13132,NA,NPM1 No group,NA,NA,NA,NA,NA,NA,NA,neg,pos,neg,neg,neg,NA,NA,Clinseq
+ALBB13133,ALBB13133,Female,NPM1 No group,33.87096774193548,1,Chemo,no,low,low,high,neg,neg,pos,neg,neg,51,34.8,Clinseq
+ALBB13137,ALBB13137,Male,NPM1 No group,35.833333333333336,1,Chemo,no,high,high,low,neg,neg,neg,neg,neg,77,45.3,Clinseq
+ALBB13139,ALBB13139,Female,NPM1 class I,0.12903225806451613,2,Chemo,no,high,low,high,neg,neg,pos,neg,neg,70,139.9,Clinseq
+ALBB14005,ALBB14005,Female,NPM1 class II,0.7096774193548387,2,"No, none or palliative treatment",no,high,low,low,pos,pos,pos,neg,neg,73,233,Clinseq
+ALBB14012,ALBB14012,Male,NPM1 class I,32.03333333333333,1,Chemo,no,high,low,high,neg,neg,neg,neg,pos,60,4.2,Clinseq
+ALBB14014,ALBB14014,Male,NPM1 class I,4.870967741935484,2,"No, none or palliative treatment",no,high,high,low,pos,neg,pos,neg,neg,82,5.9,Clinseq
+ALBB14060,ALBB14060,Female,NPM1 No group,0.0967741935483871,2,"No, none or palliative treatment",no,high,high,low,pos,neg,neg,pos,neg,96,63.8,Clinseq
+ALBB14084,ALBB14084,Female,NPM1 class I,23.903225806451612,2,Chemo,no,high,high,low,pos,neg,neg,pos,neg,72,70,Clinseq
+ALBB14091,ALBB14091,Female,NPM1 class I,3.258064516129032,2,Chemo,no,high,low,NA,pos,pos,neg,pos,neg,64,109.2,Clinseq
+ALBB14095,ALBB14095,Female,NPM1 No group,15.35483870967742,1,Chemo,NA,high,low,low,neg,pos,neg,neg,neg,60,27.7,Clinseq
+ALBB14107,ALBB14107,Male,NPM1 class I,8.419354838709678,1,"No, none or palliative treatment",no,high,low,high,neg,neg,pos,neg,neg,73,301.5,Clinseq
+ALBB14115,ALBB14115,Female,NPM1 class I,0.1,2,"No, none or palliative treatment",no,high,low,NA,pos,neg,neg,pos,neg,85,118,Clinseq
+ALBB14133,ALBB14133,Female,NPM1 No group,25.806451612903224,1,Chemo,no,high,low,low,neg,pos,neg,neg,neg,64,25.9,Clinseq
+ALBB14142,ALBB14142,Female,NPM1 No group,4.193548387096774,2,Chemo,no,low,low,low,pos,pos,neg,neg,neg,53,267.2,Clinseq
+ALG19971,ALG19971,Female,NPM1 class II,2.2666666666666666,2,Chemo,no,high,low,NA,pos,pos,neg,neg,neg,66,36,Clinseq
+ALG199722,ALG199722,Male,NPM1 class I,229.93548387096777,1,Chemo,no,high,NA,NA,neg,neg,neg,pos,neg,60,NA,Clinseq
+ALG199735,ALG199735,Female,NPM1 class II,9.714285714285714,2,Chemo,no,high,NA,NA,pos,neg,pos,neg,neg,78,NA,Clinseq
+ALG199750,ALG199750,Male,NPM1 class II,237.16666666666663,2,Chemo,no,high,NA,low,neg,pos,neg,neg,neg,73,NA,Clinseq
+ALG199816,ALG199816,Female,NPM1 class II,6.466666666666667,2,Chemo,no,low,NA,NA,pos,pos,neg,neg,neg,39,NA,Clinseq
+ALG199841,ALG199841,Male,NPM1 class II,0.7096774193548387,2,Chemo,no,high,NA,NA,pos,pos,neg,neg,neg,66,NA,Clinseq
+ALG199849,ALG199849,Female,NPM1 class I,0.03225806451612903,2,"No, none or palliative treatment",no,high,NA,NA,pos,pos,pos,neg,neg,79,NA,Clinseq
+ALG19992,ALG19992,Female,NPM1 class I,3.3,2,"No, none or palliative treatment",no,high,NA,NA,neg,neg,pos,neg,neg,81,NA,Clinseq
+ALG19997,ALG19997,Male,NPM1 No group,7.3,2,Chemo,no,high,NA,NA,pos,pos,pos,neg,neg,78,NA,Clinseq
+ALG20002,ALG20002,Female,NPM1 class I,0.6129032258064516,2,Chemo,no,high,NA,NA,neg,neg,neg,pos,neg,78,NA,Clinseq
+ALG200022,ALG200022,Female,NPM1 class I,24.677419354838708,2,Chemo,no,high,low,high,neg,neg,pos,neg,neg,76,17,Clinseq
+ALG20011,ALG20011,Male,NPM1 class II,3.8,2,"No, none or palliative treatment",no,high,high,high,pos,pos,neg,neg,neg,63,75.6,Clinseq
+ALG200117,ALG200117,Male,NPM1 No group,157.61290322580646,1,Chemo,yes,low,high,low,pos,neg,neg,pos,pos,46,69.6,Clinseq
+ALG200127,ALG200127,Female,NPM1 class I,0.03333333333333333,2,Chemo,no,low,NA,NA,pos,neg,pos,neg,neg,58,NA,Clinseq
+ALG20017,ALG20017,Female,NPM1 No group,14.64516129032258,2,Chemo,no,high,NA,NA,neg,neg,neg,neg,neg,74,NA,Clinseq
+ALG20019,ALG20019,Female,NPM1 No group,34.12903225806452,2,Chemo,no,low,low,low,neg,pos,neg,neg,pos,50,25.9,Clinseq
+ALG200213,ALG200213,Female,NPM1 No group,0.1935483870967742,2,Chemo,no,high,NA,NA,pos,pos,pos,neg,neg,68,NA,Clinseq
+ALG200317,ALG200317,Female,NPM1 class I,0.6451612903225806,2,Chemo,no,high,NA,NA,pos,neg,neg,neg,pos,63,NA,Clinseq
+ALG200322,ALG200322,Female,NPM1 class I,0.6,2,"No, none or palliative treatment",no,high,low,high,neg,neg,neg,pos,neg,88,101.7,Clinseq
+ALG20037,ALG20037,Female,NPM1 class I,165.53333333333333,1,Chemo,no,high,low,low,neg,neg,neg,pos,neg,82,32,Clinseq
+ALG20041,ALG20041,Female,NPM1 class II,7.709677419354839,2,Chemo,no,high,high,high,pos,neg,neg,neg,neg,69,46.9,Clinseq
+ALG200412,ALG200412,Female,NPM1 No group,45.12903225806452,2,Chemo,no,high,NA,NA,neg,neg,pos,neg,neg,82,NA,Clinseq
+ALG200415,ALG200415,Female,NPM1 No group,91.27586206896552,2,Chemo,no,high,NA,NA,neg,pos,neg,neg,neg,72,NA,Clinseq
+ALG200426,ALG200426,Female,NPM1 class I,0.03333333333333333,2,Chemo,no,high,NA,NA,neg,neg,pos,neg,neg,80,NA,Clinseq
+ALG20044,ALG20044,Female,NPM1 class II,4.903225806451613,2,Chemo,no,low,low,high,pos,pos,neg,neg,neg,46,249.7,Clinseq
+ALG20051,ALG20051,Male,NPM1 No group,0.967741935483871,2,"No, none or palliative treatment",no,low,NA,NA,pos,neg,neg,neg,neg,54,NA,Clinseq
+ALG200512,ALG200512,Female,NPM1 class I,1.4193548387096775,2,Chemo,no,high,NA,NA,pos,neg,neg,pos,neg,78,NA,Clinseq
+ALG200531,ALG200531,Female,NPM1 class II,18.870967741935484,2,"No, none or palliative treatment",no,high,NA,NA,neg,neg,neg,neg,neg,80,NA,Clinseq
+ALG200547,ALG200547,Female,NPM1 class I,1.6333333333333333,2,"No, none or palliative treatment",no,high,NA,NA,neg,neg,neg,pos,neg,80,NA,Clinseq
+ALG20061,ALG20061,Female,NPM1 class I,0.8064516129032258,2,Chemo,no,high,NA,NA,neg,neg,pos,neg,neg,78,NA,Clinseq
+ALG200611,ALG200611,Female,NPM1 No group,97.51612903225806,1,Chemo,no,low,NA,NA,neg,pos,neg,neg,pos,56,NA,Clinseq
+ALG200617,ALG200617,Male,NPM1 No group,53,2,Chemo,no,low,NA,NA,neg,neg,neg,neg,neg,53,NA,Clinseq
+ALG200619,ALG200619,Male,NPM1 class I,95.48387096774194,1,Chemo,yes,low,NA,NA,pos,neg,neg,pos,neg,38,NA,Clinseq
+ALG20062,ALG20062,Male,NPM1 class II,3.6666666666666665,2,Chemo,no,low,NA,NA,pos,neg,neg,neg,neg,56,NA,Clinseq
+ALG200630,ALG200630,Male,NPM1 No group,120.66666666666669,1,Chemo,no,low,NA,NA,neg,neg,pos,neg,neg,52,NA,Clinseq
+ALG200637,ALG200637,Female,NPM1 class II,32.4,2,Chemo,no,high,NA,NA,neg,neg,pos,neg,neg,77,NA,Clinseq
+ALG200643,ALG200643,Female,NPM1 class II,81.61290322580645,1,Chemo,no,high,NA,NA,neg,neg,neg,neg,neg,73,NA,Clinseq
+ALG20065,ALG20065,Female,NPM1 class I,11.129032258064516,2,Chemo,yes,low,NA,NA,neg,neg,neg,pos,neg,58,NA,Clinseq
+ALG20069,ALG20069,Female,NPM1 class I,5.2,2,Chemo,no,high,NA,NA,pos,neg,pos,neg,neg,84,NA,Clinseq
+ALG200710,ALG200710,Female,NPM1 class I,110.06666666666666,1,Chemo,no,high,low,low,pos,neg,pos,neg,neg,74,102.4,Clinseq
+ALG200719,ALG200719,Female,NPM1 class II,9.7,2,Chemo,yes,low,low,low,neg,neg,pos,neg,neg,58,2,Clinseq
+ALG200823,ALG200823,Female,NPM1 No group,98.36666666666666,1,Chemo,yes,low,low,low,pos,pos,neg,neg,neg,45,116.9,Clinseq
+ALG200825,ALG200825,Female,NPM1 class II,97,1,Chemo,no,low,low,low,neg,neg,neg,neg,neg,44,12.9,Clinseq
+ALG20083,ALG20083,Female,NPM1 class I,99.66666666666669,2,Chemo,no,high,high,low,pos,neg,neg,pos,neg,82,48.7,Clinseq
+ALG200918,ALG200918,Male,NPM1 No group,93.06666666666666,1,Chemo,no,low,high,low,neg,pos,neg,neg,neg,40,48.4,Clinseq
+ALG200921,ALG200921,Male,NPM1 class II,7.838709677419355,2,Chemo,no,high,high,low,pos,pos,neg,neg,neg,68,54.9,Clinseq
+ALG200933,ALG200933,Male,NPM1 No group,28.7,2,Chemo,no,high,low,low,neg,neg,neg,neg,neg,72,1.8,Clinseq
+ALG20094,ALG20094,Female,NPM1 class I,5.4,2,Chemo,no,high,low,low,neg,neg,neg,pos,neg,80,1.6,Clinseq
+ALG20099,ALG20099,Male,NPM1 class II,92.46666666666668,1,Chemo,no,high,low,low,pos,neg,neg,neg,neg,67,38,Clinseq
+ALG201016,ALG201016,Male,NPM1 class II,44.61290322580645,1,Chemo,yes,low,low,low,pos,pos,neg,neg,neg,57,106.1,Clinseq
+ALG201125,ALG201125,Male,NPM1 class II,1.6666666666666663,2,Chemo,no,high,high,low,neg,neg,neg,neg,neg,70,42.7,Clinseq
+ALG201126,ALG201126,Male,NPM1 class II,48.67741935483871,2,Chemo,no,high,high,low,neg,neg,neg,neg,neg,71,64.9,Clinseq
+ALG201136,ALG201136,Female,NPM1 class I,0.7741935483870968,2,"No, none or palliative treatment",no,high,low,high,pos,neg,neg,neg,pos,86,36,Clinseq
+ALG201139,ALG201139,Male,NPM1 class I,9.935483870967742,2,Chemo,no,high,high,low,neg,neg,pos,neg,neg,83,62.5,Clinseq
+ALG201145,ALG201145,Female,NPM1 class I,59.61290322580645,1,Chemo,yes,high,high,low,pos,neg,neg,pos,neg,67,7.2,Clinseq
+ALG201225,ALG201225,Female,NPM1 class I,48.12903225806452,1,Chemo,no,low,low,low,neg,pos,pos,neg,neg,49,2.7,Clinseq
+ALG201233,ALG201233,Female,NPM1 class I,41.225806451612904,2,Chemo,no,high,low,low,pos,neg,neg,pos,neg,67,14.6,Clinseq
+ALG201236,ALG201236,Female,NPM1 class I,49.1,1,Chemo,no,high,high,high,neg,neg,pos,neg,neg,71,8.4,Clinseq
+ALG20125,ALG20125,Male,NPM1 No group,56.13333333333333,1,Chemo,no,high,low,low,neg,pos,neg,pos,neg,68,100.7,Clinseq
+ALG20131,ALG20131,Female,NPM1 No group,47,1,Chemo,no,high,low,low,neg,neg,neg,pos,neg,70,16.4,Clinseq
+ALG201318,ALG201318,Female,NPM1 class I,37.833333333333336,1,Chemo,yes,high,high,low,pos,neg,pos,neg,neg,61,93.7,Clinseq
+ALG201325,ALG201325,Male,NPM1 No group,36.46666666666667,1,Chemo,yes,low,high,low,neg,pos,neg,neg,neg,55,72.2,Clinseq
+ALG201327,ALG201327,Female,NPM1 No group,5.2,2,Hypomethylating treatment (azacitidine or similar),no,high,high,low,neg,pos,pos,neg,neg,84,5.1,Clinseq
+ALG20138,ALG20138,Female,NPM1 class II,6.3,2,Chemo,no,high,high,low,pos,neg,neg,neg,neg,72,48.2,Clinseq
+ALG201411,ALG201411,Female,NPM1 class II,2.096774193548387,2,"No, none or palliative treatment",no,high,high,low,NA,NA,NA,NA,NA,85,6,Clinseq
