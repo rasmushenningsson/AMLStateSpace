@@ -26,4 +26,4 @@ With R running in the current folder, the figures can be created by running:
 > source("Fig5B.R")
 ```
 
-Note, the scripts Fig2B.R, Fig3A.R, Fig4B.R, and Fig5B.R require the file **Lilljebjorn\_etal\_scRNA-data\_AML\_NBM_Seurat4.rds**. This file can be downloaded from https://doi.org/10.17044/scilifelab.23715648 and then placed in the **data/** directory. When the scripts load this file into memory >32 GB of RAM is required.
+Note, the scripts Fig2B.R, Fig3A.R, Fig4B.R, and Fig5B.R require the file **Lilljebjorn_etal_scRNA-data_AML_NBM_Seurat4.rds**. This file can be downloaded from https://doi.org/10.17044/scilifelab.23715648 and then placed in the **data/** directory. When the scripts load this file into memory >32 GB of RAM is required.

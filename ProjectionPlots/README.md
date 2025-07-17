@@ -29,11 +29,16 @@ julia> using ProjectionPlots
 ```
 to load the package.
 
-Download the samples to the `data/samples` folder or, if you want to use a custom location for the data, run:
+To download the sample files needed into the `data/samples` folder, just run:
+```julia-repl
+julia> download_samples()
+```
+
+Alternatively, you can download all the `.h5` files manually from https://doi.org/10.17044/scilifelab.23715648 into the `data/samples` folder or, if you want to use a custom location for the data, run:
 ```julia-repl
 julia> set_samples_path("path/to/folder/with/AMLXYZ.h5")
 ```
-The settings will be persisted, so you only need to do this once.
+The setting will be persisted, so you only need to do this once.
 
 Now, you can create figures by calling:
 ```julia-repl

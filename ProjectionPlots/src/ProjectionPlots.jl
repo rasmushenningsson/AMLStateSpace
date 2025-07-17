@@ -20,11 +20,15 @@ using Colors
 using DelimitedFiles
 using JLD2
 using Preferences
+import Downloads
+import JSON
+import MD5
 
 using .SingleCellProjections.SCTransform
 import .SCTransform: scparams
 
 export
+	download_samples,
 	set_samples_path,
 	set_cache_path,
 	get_samples_path,
@@ -38,6 +42,7 @@ export
 	supplementary_figure11b
 
 
+include("download.jl")
 include("utils.jl")
 include("colormaps.jl")
 include("hex.jl")
