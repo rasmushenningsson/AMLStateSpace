@@ -7,7 +7,7 @@ Most plots were generated in R.
 See [R/README.md](R/README.md) for details on how to run the code to create them.
 
 ## Projection plots
-The Projection plots were generated in [Julia](www.julialang.org) using the [SingleCellProjections.jl](https://github.com/BioJulia/SingleCellProjections.jl) package.
+The Projection plots were generated in [Julia](https://julialang.org) using the [SingleCellProjections.jl](https://github.com/BioJulia/SingleCellProjections.jl) package.
 See [ProjectionPlots/README.md](ProjectionPlots/README.md) for details on how to run the code to create these plots.
 
 ## Data
