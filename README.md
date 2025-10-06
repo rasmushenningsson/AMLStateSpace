@@ -1,6 +1,6 @@
 # AMLStateSpace
 This repository contains code to generate figures for the paper:
-> Henrik Lilljebjörn, Pablo Peña-Martínez, Hanna Thorsson, Rasmus Henningsson, Marianne Rissler, Niklas Landberg, Noelia Puente-Moncada, Sofia von Palffy, Vendela Rissler, Petr Stanek, Jonathan Desponds, Xiangfu Zhong, Gunnar Juliusson, Vladimir Lazarevic, Sören Lehmann, Magnus Fontes, Helena Ågerstam, Carl Sandén, Christina Orsmark-Pietras, Thoas Fioretos. "The cellular state space of AML unveils novel NPM1 subtypes with distinct clinical outcomes and immune evasion properties".
+> Henrik Lilljebjörn, Pablo Peña-Martínez, Hanna Thorsson, Rasmus Henningsson, Marianne Rissler, Niklas Landberg, Noelia Puente-Moncada, Sofia von Palffy, Vendela Rissler, Petr Stanek, Jonathan Desponds, Xiangfu Zhong, Gunnar Juliusson, Vladimir Lazarevic, Sören Lehmann, Magnus Fontes, Helena Ågerstam, Carl Sandén, Christina Orsmark-Pietras, Thoas Fioretos. "The AML cellular state space unveils *NPM1* immune evasion subtypes with distinct clinical outcomes".
 
 ## General plots
 Most plots were generated in R.
