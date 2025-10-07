@@ -206,6 +206,7 @@ function setup_args(; plotmode::Symbol=:groups, aml_immature_only=false)
 	          markerSize, lineWidth=0, fontSize, overlayFontSize,
 	          displayPlots=false, savePlots=true, plotFormats, plotWidth=1024, plotHeight=1024,
 	          plotScale=2, # Not used for paper
+	          saveTables=false,
 	       )
 end
 

@@ -199,45 +199,22 @@ function plot_categorical(p,d; annotationName::String, colorDict, outName="categ
 	baseCoords = obs_coordinates(baseEmbedding)[1:p.ndim,:]
 	sampleCoords = obs_coordinates(rotEmbedding)[1:p.ndim,:]
 
-
 	traces,layout = plotscattercategorical(sampleCoords; colorby=colorBy, colorDict, title=maketitle(p,d), p.axisPrefix, p.markerSize, legendTitle, p.fontSize, order, p.axis_kwargs)
 
+	roundedCoords = round.(sampleCoords; sigdigits=5)
+	table = DataFrame("id"=>cellAnnot.id, "x"=>roundedCoords[1,:], "y"=>roundedCoords[2,:], annotationName=>colorBy)
+
 	baseEmbedding.matrix != rotEmbedding.matrix && prepend!(traces, bg_scatter(baseCoords; p.bgMarkerSize, p.bgColor, p.bgOpacity))
-	(add_overlays!(traces, layout, p, d; embedding, celltype=bgAnnotationName)..., outName)
+	(add_overlays!(traces, layout, p, d; embedding, celltype=bgAnnotationName)..., outName, table)
 end
 plot_categorical(annotationName;kwargs...) = (p,d)->plot_categorical(p,d;annotationName,kwargs...)
-
-
-
-
-function plot_numerical_heatmap(p,d; annotationName, f=mean, logtransform=false, logoffset=1, show_size=true, legendTitle=annotationName, cmin=nothing, cmax=nothing)
-	rotEmbedding = haskey(d,:rotSampleEmbedding) ? d.rotSampleEmbeddingAnn : d.rotForceLayoutAnn
-
-	baseCoords = obs_coordinates(d.rotForceLayout[])
-	sampleCoords = obs_coordinates(rotEmbedding[])
-	colorby = rotEmbedding[].obs[:,annotationName]
-
-	extra = (;)
-	if show_size
-		cutoffs, radii, size_by, size_fun = default_heatmap_sizing(d.grid[], size(sampleCoords,2); cellcountmin=p.heatmap_mincells)
-		extra = (;size_by, size_fun)
-	end
-
-	heatmapData, pointInds = setupheatmapdata(d.grid[], sampleCoords, colorby, f; cellcountmin=p.heatmap_mincells, logtransform, logoffset, extra...)
-	traces,layout = plotheatmap(d.grid[], baseCoords, sampleCoords, heatmapData, pointInds; p.bgMarkerSize, p.bgColor, p.bgOpacity, p.markerSize, title=maketitle(p,d), p.axisPrefix, colorScale=p.color_scales.numerical, cmin, cmax, colorbarTitle=legendTitle, p.fontSize, p.axis_kwargs)
-	if show_size
-		traces,layout = add_heatmap_size_overlay!(traces,layout,p,d; cutoffs, radii, max_cells=maximum(heatmapData.NbrPoints), p.heatmap_size_overlay_args...)
-	end
-
-	(add_overlays!(traces, layout, p, d)..., "heatmap_numerical_$annotationName")
-end
-plot_numerical_heatmap(annotationName; kwargs...) = (p,d)->plot_numerical_heatmap(p, d; annotationName, kwargs...)
 
 
 
 function plot_cellcount(p,d; normalize=true, logtransform=true, cmin=nothing, cmax=nothing, cellcountmin=0, outName="cellcount")
 	baseCoords = obs_coordinates(d.rotForceLayout[])
 	sampleCoords = obs_coordinates(d.rotSampleEmbedding[])
+	cellAnnot = d.rotSampleEmbeddingAnn[].obs
 	N = size(sampleCoords,2)
 
 	if normalize
@@ -252,7 +229,11 @@ function plot_cellcount(p,d; normalize=true, logtransform=true, cmin=nothing, cm
 	heatmapData, pointInds = setupheatmapdata(d.grid[], sampleCoords, cellWeights, sum; logtransform, cellcountmin)
 
 	traces,layout = plotheatmap(d.grid[], baseCoords, sampleCoords, heatmapData, pointInds; p.bgMarkerSize, p.bgColor, p.bgOpacity, p.markerSize, title=maketitle(p,d), p.axisPrefix, colorScale=p.color_scales.cell_counts, colorbarTitle, cmin, cmax, p.fontSize, p.axis_kwargs)
-	(add_overlays!(traces, layout, p, d)..., outName)
+
+	roundedCoords = round.(sampleCoords; sigdigits=5)
+	table = DataFrame("id"=>cellAnnot.id, "x"=>roundedCoords[1,:], "y"=>roundedCoords[2,:])
+
+	(add_overlays!(traces, layout, p, d)..., outName, table)
 end
 plot_cellcount(; kwargs...) = (p,d)->plot_cellcount(p,d; kwargs...)
 
@@ -307,7 +288,11 @@ function plot_mutation_heatmap(p,d; show_size=true)
 	if show_size
 		traces,layout = add_heatmap_size_overlay!(traces,layout,p,d; cutoffs, radii, max_cells=maximum(heatmapData.NbrPoints), p.heatmap_size_overlay_args...)
 	end
-	(add_overlays!(traces, layout, p, d)..., "mutation_frequency")
+
+	roundedCoords = round.(sampleCoords; sigdigits=5)
+	table = DataFrame("id"=>cellAnnot.id, "x"=>roundedCoords[1,:], "y"=>roundedCoords[2,:], "heterozygous.mutSum"=>cellAnnot[!,"heterozygous.mutSum"], "heterozygous.wtSum"=>cellAnnot[!,"heterozygous.wtSum"])
+
+	(add_overlays!(traces, layout, p, d)..., "mutation_frequency", table)
 end
 
 
@@ -381,14 +366,14 @@ function main(p; setup=setupmain, setupproj=setupembedding)
 		fnPrefix = string(pt,'_')
 	end
 
-	if p.savePlots
+	if p.savePlots || p.saveTables
 		!isdir(outPath) && mkpath(outPath)
 	end
 
 	for plotfun in p.plotfuns
 		x = plotfun(p,d)
 		if x !== nothing
-			traces,layout,plotName = x
+			traces,layout,plotName,table = x
 			pl = Plot(traces,layout)
 			p.displayPlots && display(plot(pl))
 			if p.savePlots
@@ -397,6 +382,11 @@ function main(p; setup=setupmain, setupproj=setupembedding)
 					@info "Saving figure \"$fn\""
 					@time savefig(pl, fn; width=p.plotWidth, height=p.plotHeight, scale=get(p,:plotScale,1))
 				end
+			end
+			if p.saveTables && table !== nothing
+				fn = joinpath(outPath,string(fnPrefix, plotName, ".csv"))
+				@info "Saving table \"$fn\""
+				CSV.write(fn, table)
 			end
 		end
 	end
@@ -417,14 +407,14 @@ function main_samples(p; setup=setupmain, setupproj=setupembedding)
 
 		dSample = (;d..., d2...)
 
-		if p.savePlots
+		if p.savePlots || p.saveTables
 			!isdir(outPath) && mkpath(outPath)
 		end
 
 		for plotfun in p.plotfuns
 			x = plotfun(pSample,dSample)
 			if x !== nothing
-				traces,layout,plotName = x
+				traces,layout,plotName,table = x
 				pl = Plot(traces,layout)
 				p.displayPlots && display(plot(pl))
 				if p.savePlots
@@ -433,6 +423,11 @@ function main_samples(p; setup=setupmain, setupproj=setupembedding)
 						@info "Saving figure \"$fn\""
 						@time savefig(pl, fn; width=p.plotWidth, height=p.plotHeight, scale=get(p,:plotScale,1))
 					end
+				end
+				if p.saveTables && table !== nothing
+					fn = joinpath(outPath,string(sampleFilename,'_',plotName, ".csv"))
+					@info "Saving table \"$fn\""
+					CSV.write(fn, table)
 				end
 			end
 		end
